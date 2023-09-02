@@ -9,23 +9,23 @@ export default function Home() {
 
   const handleClick = (e, name) => {
     e.preventDefault()
-    router.push("/"+name)
+    router.push("/" + name)
   }
   return (
     <main
       className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
     >
       <div className="space-y-5">
-        <div className="p-3 bg-white shadow rounded-lg" onClick={(e)=> handleClick(e, "house")}>
+        <div className="p-3 bg-white shadow rounded-lg" onClick={(e) => handleClick(e, "house")}>
           <h3 className="text-xs border-b">font-sans</h3>
           <p className="font-sans">
             House Page
           </p>
         </div>
-        <div className="p-3 bg-white shadow rounded-lg" onClick={(e)=> handleClick(e, "project")}>
+        <div className="p-3 bg-white shadow rounded-lg" onClick={(e) => handleClick(e, "project")}>
           <h3 className="text-xs border-b">font-serif</h3>
           <p className="font-serif">
-          Project Page
+            Project Page
           </p>
         </div>
         <div className="p-3 bg-white shadow rounded-lg">
@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </div>
 
-      
+
       <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-2 dark:bg-slate-800">
         <img className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="./classic.jpg" alt="" width="384" height="512" />
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
