@@ -25,7 +25,7 @@ export default function Home() {
         <div className="p-3 bg-white shadow rounded-lg" onClick={(e)=> handleClick(e, "project")}>
           <h3 className="text-xs border-b">font-serif</h3>
           <p className="font-serif">
-          project page
+          Project Page
           </p>
         </div>
         <div className="p-3 bg-white shadow rounded-lg">
