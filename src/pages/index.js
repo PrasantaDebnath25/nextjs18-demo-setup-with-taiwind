@@ -194,6 +194,7 @@ export default function Home() {
               </svg>
             </button>
           </div>
+          
           <p className="text-sm text-slate-500">
             Free shipping on all continental US orders.
           </p>
