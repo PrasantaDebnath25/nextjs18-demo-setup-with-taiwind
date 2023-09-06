@@ -28,12 +28,12 @@ export default function Home() {
             Project Page
           </p>
         </div>
-        <div className="p-3 bg-white shadow rounded-lg">
+        {/* <div className="p-3 bg-white shadow rounded-lg">
           <h3 className="text-xs border-b">font-mono</h3>
           <p className="font-mono">
             The quick brown fox jumps over the lazy dog.
           </p>
-        </div>
+        </div> */}
       </div>
 
 
